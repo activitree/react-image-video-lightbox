@@ -226,8 +226,8 @@ class ReactImageVideoLightbox extends React.Component {
 
             if (resource.type === 'video') {
                 items.push(<iframe key={i}
-                    width="560"
-                    height="315"
+                    width="80%"
+                    height="80%"
                     src={resource.url}
                     frameBorder="0"
                     allow="autoplay; encrypted-media"
